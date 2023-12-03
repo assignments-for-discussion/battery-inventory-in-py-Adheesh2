@@ -19,6 +19,7 @@ def count_batteries_by_health(present_capacities):
   return counts
 
 
+
 def test_bucketing_by_health():
   print("Counting batteries by SoH...\n")
   present_capacities = [113, 116, 80, 95, 92, 70]
@@ -48,3 +49,4 @@ def test_bucketing_by_health():
 
 if __name__ == '__main__':
   test_bucketing_by_health()
+
